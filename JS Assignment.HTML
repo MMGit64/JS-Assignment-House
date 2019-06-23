@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>                                     
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+
+</head>
+
+<body>                                            
+    <h1>JavaScript Assignment</h1>
+    <script type="text/JavaScript">
+    
+    let house = {
+    areas: [
+        {
+        livingRoom: {
+                    items: ['tv','sofa', 'dining table']
+                    }
+        },
+        {
+        bedroomOne: {
+                    items: ['bed'],
+                    windows: 3
+                    }
+        },
+        {
+        bedroomTwo:{
+                    items: ['bed','bed','desk'],
+                    windows: 4
+                    }
+        },
+        {
+        kitchen:{
+                items: ['fridge','new chair','microwave', 'stove']
+                }
+        }
+        ],
+    garden: [true, 'Red Rose'],
+    garage: {
+            car: {
+                color: 'blue',
+                wheels: 4,
+                honk: ()=>{alert("Beep")}
+                },
+            car2: {
+                color: 'black',
+                wheels: 4,
+                honk: ()=>{alert("Honk")}
+                }
+            }
+    }
+    console.log(house.garden[1]);
+    </script>
+</body>
+
+//1. There are six areas in total. 
+//5. There are a total of three beds in all rooms.
